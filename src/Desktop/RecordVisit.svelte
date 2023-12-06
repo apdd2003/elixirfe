@@ -69,7 +69,7 @@
     availableMeasurements: LOINC[] = [],
     billTotal = 0,
     paidTotal = 0,
-    facilityBaseUrl = "";
+    facilityBaseUrl = "api/";
 
   $: {
     chargeableItems = [
